@@ -4,6 +4,7 @@ body{
     font-family: 'Lobster', cursive;
 font-family: 'Poppins', sans-serif;
 background-color: #F3F1FF;
+margin: 0px;
 }
 main{
     display: flex;
@@ -115,9 +116,21 @@ hr{
     .player,.blog{
         flex-direction: column;
     } 
-    h4{
+     .idea-icon{
+        position: relative;
+        right: 467px;
+    } 
+    .menu a{
+        position: relative;
+        right: 464px;  
         
     }
+    
+    /* .menu img{
+        position: relative;
+        right: 900px;
+    }  */
+    
 }
 /* tablet devices */
 @media only screen and (min-width:688px) and (max-width:992px) {
@@ -127,7 +140,45 @@ hr{
     .players{
         grid-template-columns: repeat(2,1fr);
     }
+    .menu{
+        position: relative;
+        right: 563px;
+    }
+    .menu a{
+        
+         position: relative;
+        right: 464px;   
+        
+    }
+    .idea-icon{
+        
+         position: relative;
+        right: 467px; 
+    } 
+
 }
+@media only screen and (min-width:315px) and (max-width:688px) {
+    .menu a{  
+         position: relative;
+       right: 1026px;    
+       
+   }
+
+
+}
+@media only screen and (min-width:993px) {
+    .menu a{  
+       
+          position: relative;
+       right: 600px;     
+       
+   }
+
+
+}
+
+
+
 
 /* header part */
 
