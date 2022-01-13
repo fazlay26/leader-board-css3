@@ -78,6 +78,7 @@ hr{
     text-decoration: none;
     font-size: 16px;
     color: #562EFF;
+    padding-left: 3px;
 }
 /* courses styles */
 .courses{
@@ -104,16 +105,19 @@ hr{
 /* media quiries */
 /* mobile devices */
 @media only screen and (max-width:688px) {
-    .container{
+    .container {
         width: 100%;
     }
-    .players,.blogs,.courses{
+    .players,.blogs,.courses {
         
         grid-template-columns: repeat(1,1fr);
     }
     .player,.blog{
         flex-direction: column;
     } 
+    h4{
+        
+    }
 }
 /* tablet devices */
 @media only screen and (min-width:688px) and (max-width:992px) {
@@ -123,4 +127,58 @@ hr{
     .players{
         grid-template-columns: repeat(2,1fr);
     }
+}
+
+/* header part */
+
+.idea-icon img{
+    width: 40.42px;
+height: 51px;
+padding-left: 285px;
+}
+.idea-icon{
+    display: flex;
+    align-items: center;
+    padding-left: 190px;
+   
+}
+.bg{
+    background: #562EFF;
+    margin-bottom: 20px;
+}
+h4{
+    padding-left: 16px;
+    color: #F3F1FF;
+    font-weight: 500;
+font-size: 24px;
+}
+
+.menu-bar  li{
+   
+    list-style: none;
+    display: flex;
+}
+.menu-bar a{
+    text-decoration: none;
+
+}
+ul{
+    display: flex;
+}
+a{
+    padding-left: 36px;
+    color: #F3F1FF;
+}
+.menu{
+    display: flex;
+    padding-left: 545px;
+}
+.profile-pic{
+    padding-left: 36px;
+    width: 51px;
+    height: 51px;
+}
+.menu-bar1{
+    display: flex;
+    align-items: center;
 }
